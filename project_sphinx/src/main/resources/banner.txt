@@ -1,0 +1,7 @@
+
+${AnsiColor.RED},------.   ,------.    ,-----.   ,--.  ,--. ,--.  ,--.${AnsiColor.RED}
+${AnsiColor.RED}|  .-.  \  |  .-.  \  '  .--./   |  '--'  | |  ,'.|  |${AnsiColor.RED}
+${AnsiColor.RED}|  |  \  : |  |  \  : |  |       |  .--.  | |  |' '  |${AnsiColor.RED}
+${AnsiColor.RED}|  '--'  / |  '--'  / '  '--'\   |  |  |  | |  | `   |${AnsiColor.RED}
+${AnsiColor.RED}`-------'  `-------'   `-----'   `--'  `--' `--'  `--'${AnsiColor.RED}
+${AnsiColor.BRIGHT_BLUE}:: Create By Dev DDC HN  🤓  :: Running Spring Boot ${spring-boot.version} ::

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.fpt.fis.TGS.model.OptionsWatermark">
+        <table name="OPTIONS_WATERMARK" schema="form_management" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="ID"/>
+            </id>
+            <basic name="watermarkText">
+                <column name="WATERMARK_TEXT"/>
+            </basic>
+            <basic name="fontWatermark">
+                <column name="FONT_WATERMARK"/>
+            </basic>
+            <basic name="width">
+                <column name="WIDTH"/>
+            </basic>
+            <basic name="height">
+                <column name="HEIGHT"/>
+            </basic>
+            <basic name="rotation">
+                <column name="ROTATION"/>
+            </basic>
+            <basic name="color">
+                <column name="COLOR"/>
+            </basic>
+            <basic name="strokeColor">
+                <column name="STROKE_COLOR"/>
+            </basic>
+            <basic name="relativeHorizontalPosition">
+                <column name="RELATIVE_HORIZONTAL_POSITION"/>
+            </basic>
+            <basic name="relativeVerticalPosition">
+                <column name="RELATIVE_VERTICAL_POSITION"/>
+            </basic>
+            <basic name="warpType">
+                <column name="WARP_TYPE"/>
+            </basic>
+            <basic name="verticalAlignment">
+                <column name="VERTICAL_ALIGNMENT"/>
+            </basic>
+            <basic name="horizontalAlignment">
+                <column name="HORIZONTAL_ALIGNMENT"/>
+            </basic>
+            <basic name="createBy">
+                <column name="CREATE_BY"/>
+            </basic>
+            <basic name="crateDate">
+                <column name="CRATE_DATE"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="UPDATE_BY"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="UPDATE_DATE"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="com.fpt.fis.TGS.model.Departments">
+        <table name="DEPARTMENTS" schema="form_management" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="ID"/>
+            </id>
+            <basic name="departmentsName">
+                <column name="DEPARTMENTS_NAME"/>
+            </basic>
+            <basic name="code">
+                <column name="CODE"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+            <basic name="createBy">
+                <column name="CREATE_BY"/>
+            </basic>
+            <basic name="createDate">
+                <column name="CREATE_DATE"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="UPDATE_BY"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="UPDATE_DATE"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="com.fpt.fis.TGS.model.TypeDocument">
+        <table name="TYPE_DOCUMENT" schema="form_management" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="ID"/>
+            </id>
+            <basic name="nameTypeDocument">
+                <column name="NAME_TYPE_DOCUMENT"/>
+            </basic>
+            <basic name="codeTypeDocument">
+                <column name="CODE_TYPE_DOCUMENT"/>
+            </basic>
+            <basic name="description">
+                <column name="DESCRIPTION"/>
+            </basic>
+            <basic name="createBy">
+                <column name="CREATE_BY"/>
+            </basic>
+            <basic name="createDate">
+                <column name="CREATE_DATE"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="UPDATE_BY"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="UPDATE_DATE"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="com.fpt.fis.TGS.model.FormFile">
+        <table name="FORM_FILE" schema="form_management" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="ID"/>
+            </id>
+            <basic name="fileName">
+                <column name="FILE_NAME"/>
+            </basic>
+            <basic name="filePath">
+                <column name="FILE_PATH"/>
+            </basic>
+            <basic name="description">
+                <column name="DESCRIPTION"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+            <basic name="createBy">
+                <column name="CREATE_BY"/>
+            </basic>
+            <basic name="createDate">
+                <column name="CREATE_DATE"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="UPDATE_BY"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="UPDATE_DATE"/>
+            </basic>
+            <basic name="code">
+                <column name="CODE"/>
+            </basic>
+            <basic name="idTypeDocument">
+                <column name="ID_TYPE_DOCUMENT"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="com.fpt.fis.TGS.model.FormFile">
+        <table name="FORM_FILE" schema="form_management" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="ID"/>
+            </id>
+            <basic name="fileName">
+                <column name="FILE_NAME"/>
+            </basic>
+            <basic name="filePath">
+                <column name="FILE_PATH"/>
+            </basic>
+            <basic name="description">
+                <column name="DESCRIPTION"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+            <basic name="createBy">
+                <column name="CREATE_BY"/>
+            </basic>
+            <basic name="createDate">
+                <column name="CREATE_DATE"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="UPDATE_BY"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="UPDATE_DATE"/>
+            </basic>
+            <basic name="code">
+                <column name="CODE"/>
+            </basic>
+            <basic name="idTypeDocument">
+                <column name="ID_TYPE_DOCUMENT"/>
+            </basic>
+            <basic name="idDepartments">
+                <column name="ID_DEPARTMENTS"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="com.fpt.fis.TGS.model.FormFile">
+        <table name="FORM_FILE" schema="form_management" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="ID"/>
+            </id>
+            <basic name="fileName">
+                <column name="FILE_NAME"/>
+            </basic>
+            <basic name="filePath">
+                <column name="FILE_PATH"/>
+            </basic>
+            <basic name="description">
+                <column name="DESCRIPTION"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+            <basic name="createBy">
+                <column name="CREATE_BY"/>
+            </basic>
+            <basic name="createDate">
+                <column name="CREATE_DATE"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="UPDATE_BY"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="UPDATE_DATE"/>
+            </basic>
+            <basic name="code">
+                <column name="CODE"/>
+            </basic>
+            <basic name="idTypeDocument">
+                <column name="ID_TYPE_DOCUMENT"/>
+            </basic>
+            <basic name="idDepartments">
+                <column name="ID_DEPARTMENTS"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="com.fpt.fis.TGS.model.DomainSystem">
+        <table name="DOMAIN_SYSTEM" schema="form_management" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="code">
+                <column name="CODE"/>
+            </basic>
+            <basic name="value">
+                <column name="VALUE"/>
+            </basic>
+            <basic name="name">
+                <column name="NAME"/>
+            </basic>
+            <basic name="description">
+                <column name="DESCRIPTION"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+            <basic name="createBy">
+                <column name="CREATE_BY"/>
+            </basic>
+            <basic name="createDate">
+                <column name="CREATE_DATE"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="UPDATE_BY"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="UPDATE_DATE"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="com.sphinx.project.model.User">
+        <table name="user" schema="sphinx_db" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="-1"/>
+            </id>
+            <basic name="username">
+                <column name="username"/>
+            </basic>
+            <basic name="password">
+                <column name="password"/>
+            </basic>
+            <basic name="fullname">
+                <column name="fullname" nullable="false"/>
+            </basic>
+            <basic name="createBy">
+                <column name="create_by" nullable="false"/>
+            </basic>
+            <basic name="createDate">
+                <column name="create_date" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="updateBy">
+                <column name="update_by" nullable="false"/>
+            </basic>
+            <basic name="updateDate">
+                <column name="update_date" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="active">
+                <column name="active" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
